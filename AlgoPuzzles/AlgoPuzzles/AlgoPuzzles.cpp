@@ -5,11 +5,12 @@
 #include <stdio.h>
 #include <iostream>
 #include "CheckUniqueChars.h"
+#include "ReverseString.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	Puzzle* puzzle = new CheckUniqueChars();
+	Puzzle* puzzle = new ReverseString();
 	puzzle->Execute();
 	std::cin.get();
 
