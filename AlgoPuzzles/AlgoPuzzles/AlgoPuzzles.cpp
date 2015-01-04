@@ -6,11 +6,12 @@
 #include <iostream>
 #include "CheckUniqueChars.h"
 #include "ReverseString.h"
+#include "CheckStringReshuffle.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	Puzzle* puzzle = new ReverseString();
+	Puzzle* puzzle = new CheckStringReshuffle();
 	puzzle->Execute();
 	std::cin.get();
 

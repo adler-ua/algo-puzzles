@@ -79,6 +79,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CheckStringReshuffle.h" />
     <ClInclude Include="CheckUniqueChars.h" />
     <ClInclude Include="Puzzle.h" />
     <ClInclude Include="ReverseString.h" />
@@ -87,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AlgoPuzzles.cpp" />
+    <ClCompile Include="CheckStringReshuffle.cpp" />
     <ClCompile Include="CheckUniqueChars.cpp" />
     <ClCompile Include="Puzzle.cpp" />
     <ClCompile Include="ReverseString.cpp" />
