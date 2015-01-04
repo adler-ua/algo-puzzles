@@ -7,11 +7,12 @@
 #include "CheckUniqueChars.h"
 #include "ReverseString.h"
 #include "CheckStringReshuffle.h"
+#include "ReplaceSpaces.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	Puzzle* puzzle = new CheckStringReshuffle();
+	Puzzle* puzzle = new ReplaceSpaces();
 	puzzle->Execute();
 	std::cin.get();
 
