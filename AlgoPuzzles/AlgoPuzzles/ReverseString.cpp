@@ -5,12 +5,15 @@
 
 void Reverse(char* input)
 {
+	// find end of string:
 	char* end = input;
 	while (*end)
 	{
 		end++;
 	}
+	// move one char back
 	end--;
+	// swap all from start to end:
 	while (input < end)
 	{
 		char tmp = *input;
