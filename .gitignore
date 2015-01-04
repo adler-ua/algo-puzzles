@@ -26,3 +26,9 @@
 *.exe
 *.out
 *.app
+*.opensdf
+*.sdf
+*.lastbuildstate
+*.tlog
+*.idb
+*.ipch
